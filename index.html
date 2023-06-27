@@ -8,38 +8,43 @@
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-   <header>
+   <header class="bg-dark text-info m-0">
+    <div class="w-75 m-auto p-1">
+        <div class="row justify-content-between">
 
+            <div class="col-2 small">
+            Portfolio
+            </div>
+
+            <div class="col-2 small">
+            CONTACT ME
+            </div>
+        </div>
+    </div>
 
    </header>
    <main>
+<div class="bg-info">
     <div class="container w-75 m-auto">
-        <div class="row justify-content-between">
-
-            <div class="col-2">
-              Portfolio
+            
+            <!--PROFILO-->
+            <div class="row text-center pb-3">
+                <div>
+                    <img src="./img/undraw_profile_pic_ic5t.svg" class="w-25 m-auto pt-3">
+                </div>
+                <h3>
+                    Pinco Pallo
+                </h3>
+                <p class="small">
+                    WEB DESIGNER
+                </p>
             </div>
-
-            <div class="col-2">
-              CONTACT ME
-            </div>
-        </div>
-        <!--PROFILO-->
-        <div class="row text-center">
-            <div>
-                <img src="./img/undraw_profile_pic_ic5t.svg" class="w-25 m-auto">
-            </div>
-            <h3>
-                Pinco Pallo
-            </h3>
-            <p class="small">
-                WEB DESIGNER
-            </p>
-        </div>
+</div>
+    
         <!--PORTFOLIO-->
-        
-            <div class="row justify-content-evenly text-center mx-auto">
-                <h4>PORTFOLIO</h4>
+    <div class="bg-white">    
+            <div class="row justify-content-evenly text-center mx-auto w-75 m-auto">
+                <h4 class="pt-2">PORTFOLIO</h4>
                 
                     <div class="col-3 pb-3 border px-0">
                         <img src="./img/cabin.png" class="container-fluid p-0">
@@ -62,7 +67,7 @@
             </div>
         
         <!--RIGA 2-->
-        <div class="row justify-content-evenly pt-5 text-center mx-auto">
+        <div class="row justify-content-evenly pt-5 text-center mx-auto w-75 m-auto pb-5">
             
                 <div class="col-3 pb-3 border px-0">
                     <img src="./img/game.png" class="container-fluid p-0">
@@ -81,7 +86,32 @@
                     <h5 class="pt-2">Submarine Website</h5>
                     <button type="button" class="btn btn-info">Preview</button> <button type="button" class="btn btn-outline-info">Visite site</button>
                 </div>
+        
         </div>
+    <!--layout-->
+    <div class="container w-75 m-auto">
+
+        <form class="row g-3 px-5">
+
+            <div class="col-md-6">
+            <label for="inputfirstname" class="form-label">First name</label>
+            <input type="firstname" class="form-control" id="inputfirstname"  placeholder="Enter your first name...">
+            </div>
+
+            <div class="col-md-6">
+            <label for="inputlastname" class="form-label">Last name</label>
+            <input type="lastname" class="form-control" id="inputlastname" placeholder="Enter your last name...">
+            </div>
+            
+            <div class="col-md-6">
+            <label for="inputemail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="inputfirstname"  placeholder="name@example.com">
+            </div>
+    
+            <div class="col-md-6">
+            <label for="inputhours" class="form-label">Hours requested</label>
+            <input type="hours" class="form-control" id="hours" placeholder="Hours requested">
+            </div>
     </div>
    </main>     
    <footer>
