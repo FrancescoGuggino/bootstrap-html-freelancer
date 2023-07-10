@@ -68,6 +68,6 @@ let finalPrice = 0
 
     finalPrice = finalPrice.toFixed(2);
 
-    document.getElementById("price").innerHTML = "Il prezzo stimato è di: " + finalPrice;
+    document.getElementById("price-result").innerHTML = "Il prezzo stimato è di: " + finalPrice;
 
 }
